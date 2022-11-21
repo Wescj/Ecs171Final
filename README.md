@@ -1,4 +1,5 @@
-# Ecs171Final
+# Ecs171Final 
+##Group members: Wesley Judy, Yingchen Gu, Andrew Song, YingYu Gu
 https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=download
 
 
