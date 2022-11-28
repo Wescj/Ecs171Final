@@ -19,5 +19,15 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=d
 *  By running the shapiro wilk test we can observe that all of our data is most likely not normally distributed
 *  We will pre process our data using the min max scaler as this method is the most efficient since all of our data is not normally distributed
 
+## Preprocessing & First Model Building and Evaluation Milestone
+* Finish Major preprocessing
+    * scaling/transforming data (We used MinMaxScaler because our data is not normally distributed)
+    * imputing data (We did not find any imputed data)
+    * encoding data (Since our dataset values are all numberical, we do not need to encode)
+    * feature expansion (taking features and generating new features by transforming via polynomial, log multiplication of features)
+* Train model
+* Evaluate model (compare traning vs testing error)
+* Where does it fit in the fitting graph?
+* Update readme w links to jupyter notebook
 
 [link to Jupyter Notebook](./diabetes.ipynb).
