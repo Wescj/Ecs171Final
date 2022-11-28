@@ -27,7 +27,8 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=d
     * feature expansion (taking features and generating new features by transforming via polynomial, log multiplication of features)
 * Train model
 * Evaluate model (compare traning vs testing error)
+The accuracy of our training and testing models are very similar with a slight bias to the training data which is reasonable. This means that it is likely our model is not underfitting or overfitting the data
 * Where does it fit in the fitting graph?
-* Update readme w links to jupyter notebook
+Graphing the fitting graph, we can see that the feeding the model more data results in a better result for the testing error while the training error seems to stay relatively stable. Thus it is reasonable to conclude that the model is neither overfitting or underfitting.
 
 [link to Jupyter Notebook](./diabetes.ipynb).
