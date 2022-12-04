@@ -38,7 +38,7 @@ To preprocess our data, we scaled our data with the MinMaxScaler because our dat
 For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
 
 ### Model 2
-The second model was created using the Gaussian Naïve Bayes. 
+The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
 
 ## Preprocessing & First Model Building and Evaluation Milestone
 * Finish Major preprocessing
