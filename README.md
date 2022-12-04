@@ -2,6 +2,8 @@
 ## Group members: Wesley Judy, Yingchen Gu, Andrew Song, YingYu Gu
 https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=download
 
+### Introduction
+The topic we chose to do our project on is Diabetes. We chose this topic because it's a chronic illness that a large population of the US suffers from. Using machine learning, we would be able to analyze larger datasets and add on to the model, making it more precise and accurate in determining whether someone has diabetes or not. Having a good predictive mode for this dataset is very important because it will help people get the treatment they need before it's too late. 
 
 ### Dataset Attributes Information:
 * Pregnancies: The number of pregnancies  (int64)
