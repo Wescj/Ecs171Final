@@ -13,13 +13,26 @@ https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=d
 * Age: To express the age (int64)
 * Outcome: A boolean variable to indicate whether the person is diabetic (1) or not diabetic (0) (boolean)
 
-### Introduction
+## Introduction
 The topic we chose to do our project on is Diabetes. We chose this topic because it's a chronic illness that a large population of the US suffers from. Using machine learning, we would be able to analyze larger datasets and add on to the model, making it more precise and accurate in determining whether someone has diabetes or not. Having a good predictive mode for this dataset is very important because it will help people get the treatment they need before it's too late. 
 
 ## Observations on our data
 *  We have 768 patient observations
 *  By running the shapiro wilk test we can observe that all of our data is most likely not normally distributed
 *  We will pre process our data using the min max scaler as this method is the most efficient since all of our data is not normally distributed
+
+## Methods
+### Data Exploration
+Before talking about the methods, we first ran the Shapiro-Wilk test on the dataset with every column to see if the data is normally distributed in order to help us decide which preprocessing method to use. We continued to explore the dataset by creating a heatmap to see the correlations of each attributes. For example, if we look at the heatmap, we can see that age have a higher correlation with glucose compared to BMI, which means that people who are older in age might have a higher probability of having diabetes due to their higher glucose. 
+
+### Preprocessing
+To preprocess our data, we scaled our data with the MinMaxScaler because our data was normalized. 
+
+### Model 1
+For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
+
+### Model 2
+The second model was created using the Gaussian Naïve Bayes. 
 
 ## Preprocessing & First Model Building and Evaluation Milestone
 * Finish Major preprocessing
