@@ -27,8 +27,7 @@ The above images shows scatter plots of various attributes compared to each othe
 
 ## Methods
 ### Data Exploration
-Before talking about the methods, we first ran the Shapiro-Wilk test on the dataset with every column to see if the data is normally distributed in order to help us decide which preprocessing method to use. We continued to explore the dataset by creating a heatmap to see the correlations of each attributes. For example, if we look at the heatmap, we can see that age have a higher correlation with glucose compared to BMI, which means that people who are older in age might have a higher probability of having diabetes due to their higher glucose. 
-
+Before talking about the methods, we first ran the Shapiro-Wilk test on the dataset with every column. We continued to explore the dataset by creating a heatmap to see the correlations of each attributes. 
 ### Preprocessing
 To preprocess our data, we scaled our data with the MinMaxScaler because our data was normalized. 
 
