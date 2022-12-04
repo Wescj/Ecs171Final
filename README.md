@@ -28,6 +28,9 @@ The above images shows scatter plots of various attributes compared to each othe
 ## Methods
 ### Data Exploration
 Before talking about the methods, we first ran the Shapiro-Wilk test on the dataset with every column. We continued to explore the dataset by creating a heatmap to see the correlations of each attributes. 
+
+Heatmap:
+![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049107942009491537/image.png)
 ### Preprocessing
 To preprocess our data, we scaled our data with the MinMaxScaler because our data was normalized. 
 
