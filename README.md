@@ -19,7 +19,7 @@ The topic we chose to do our project on is Diabetes. We chose this topic because
 ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049100940852072568/image.png)
 ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049100954248683591/image.png)
 
-The above images shows scatter plots of various attributes compared to each other. The colors on the plot shows whether the patient has diabetes or not. These scatter plots show how one attribute relate to another and how this relation could correlate to diabetes. 
+The above images shows scatter plots of various attributes compared to each other (Features vs. Age). The colors on the plot shows whether the patient has diabetes or not. These scatter plots show how one attribute relate to another and how this relation could correlate to diabetes. 
 ## Observations on our data
 *  We have 768 patient observations
 *  By running the shapiro wilk test we can observe that all of our data is most likely not normally distributed
