@@ -31,12 +31,11 @@ Before talking about the methods, we first ran the Shapiro-Wilk test on the data
 Heatmap:
 
 ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049107942009491537/image.png)
-### Preprocessing
-For our data preprocessing we chose the Min Max Scaler as we found from our shapiro-wilk tests that our data is most likely not normally distributed. We also checked for any missing or NULL values to avoid any issues. We chose not to encode our data as we have no fields that needed encoding as every single field was a numeric value. Thus there was no real reason to encode our data. To increase the scope of our data set we also added a polynomial transformation for every field except for the “Outcome” field.
 
+### Preprocessing
+We used a MinMaxScaler method to transform our data after checking for possible NULL values. Then we worked to expand the features using polynomial transformation and trained the model.
 ### Model 1
 For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
-
 ### Model 2
 The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
 
@@ -53,7 +52,11 @@ The accuracy of our training and testing models are very similar with a slight b
 Graphing the fitting graph, we can see that the feeding the model more data results in a better result for the testing error while the training error seems to stay relatively stable. Thus it is reasonable to conclude that the model is neither overfitting or underfitting.
 
 ## Discussion
+### Thought Process
+
 ### Data Exploration
 One of the first steps we took when doing data exploration was to run the Shapiro-Wilk test because this can tell us whether the data is normalized. By determining this, we can proceed with the MinMaxScaler or the StandardScaler depending on the results. As you can see, we found that our data was not normally distributed. Thus, we decided to use the MinMaxScaler to scale our data since StandardScaler is usually used on normalized data. Along with the Shapiro-Wilk test, we created several graphs to show the count distribution (number of people) of each attributes. These bar graphs tell us the spread of our data, so we have a better visualization of what we are working with. Furthermore, we created scatterplots and a heatmap to see the correlation between the attributes and the outcome. The heatmap reveals how correlated the attributes are. The scatterplot is also color coded so that we can see whether the patient has Diabetes or not, while also seeing how the attributes (i.e. Age, Glucose) are correlated to each other and the outcome. 
+### Preprocessing
+For our data preprocessing we chose the Min Max Scaler as we found from our shapiro-wilk tests that our data is most likely not normally distributed. We also checked for any missing or NULL values to avoid any issues. We chose not to encode our data as we have no fields that needed encoding as every single field was a numeric value. Thus there was no real reason to encode our data. To increase the scope of our data set we also added a polynomial transformation for every field except for the “Outcome” field.
 
 [link to Jupyter Notebook](./diabetes.ipynb).
