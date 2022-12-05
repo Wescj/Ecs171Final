@@ -94,6 +94,52 @@ Our Logistic Regression Model and Gaussian NB Model performed very similarly, wi
 
 ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049142649094934608/image.png) ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049142621806805032/image.png)
 
+```
+Logistic Regression
+---------------- Training Data ----------------
+              precision    recall  f1-score   support
+
+           0       0.79      0.92      0.85       406
+           1       0.77      0.53      0.63       208
+
+    accuracy                           0.79       614
+   macro avg       0.78      0.73      0.74       614
+weighted avg       0.79      0.79      0.78       614
+ 
+
+---------------- Testing Data ----------------
+              precision    recall  f1-score   support
+
+           0       0.73      0.89      0.80        94
+           1       0.74      0.48      0.59        60
+
+    accuracy                           0.73       154
+   macro avg       0.74      0.69      0.69       154
+weighted avg       0.74      0.73      0.72       154
+ 
+```
+Gaussian NB
+---------------- Training Data ----------------
+              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82       406
+           1       0.65      0.59      0.62       208
+
+    accuracy                           0.76       614
+   macro avg       0.73      0.72      0.72       614
+weighted avg       0.75      0.76      0.75       614
+
+---------------- Testing Data ----------------
+              precision    recall  f1-score   support
+
+           0       0.75      0.84      0.79        94
+           1       0.69      0.57      0.62        60
+
+    accuracy                           0.73       154
+   macro avg       0.72      0.70      0.71       154
+weighted avg       0.73      0.73      0.73       154
+
+```
 
 
 [link to Jupyter Notebook](./diabetes.ipynb).
