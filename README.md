@@ -58,22 +58,18 @@ Heatmap:
 
 ### Preprocessing
 We used a MinMaxScaler method to transform our data after checking for possible NULL values. Then we worked to expand the features using polynomial transformation and trained the model.
-### Model 1
-For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
-### Model 2
-The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
 
-## Preprocessing & First Model Building and Evaluation Milestone
-* Major preprocessing
-    * scaling/transforming data (We used MinMaxScaler because our data is not normally distributed)
-    * imputing data (We did not find any imputed data)
-    * encoding data (Since our dataset values are all numberical, we do not need to encode)
-    * feature expansion (taking features and generating new features by transforming via polynomial, log multiplication of features)
-* Train model
-* Evaluate model (compare traning vs testing error)
-The accuracy of our training and testing models are very similar with a slight bias to the training data which is reasonable. This means that it is likely our model is not underfitting or overfitting the data
-* Where does it fit in the fitting graph?
-Graphing the fitting graph, we can see that the feeding the model more data results in a better result for the testing error while the training error seems to stay relatively stable. Thus it is reasonable to conclude that the model is neither overfitting or underfitting.
+```
+train, test = train_test_split(scaledData, test_size=0.2, random_state=21)
+X_train, y_train = train.drop(['Outcome'], axis = 1), train['Outcome']
+X_test, y_test = test.drop(['Outcome'], axis = 1), test['Outcome']
+```
+
+
+### Model 1 (Logistic Regression)
+For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
+### Model 2 (Gaussian NB)
+The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
 
 ## Discussion
 ### Thought Process
