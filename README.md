@@ -59,17 +59,34 @@ Heatmap:
 ### Preprocessing
 We used a MinMaxScaler method to transform our data after checking for possible NULL values. Then we worked to expand the features using polynomial transformation and trained the model.
 
+### Model 1 (Logistic Regression)
+For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
 ```
 train, test = train_test_split(scaledData, test_size=0.2, random_state=21)
 X_train, y_train = train.drop(['Outcome'], axis = 1), train['Outcome']
 X_test, y_test = test.drop(['Outcome'], axis = 1), test['Outcome']
+#Logistic Regression Model
+training_model = LogisticRegression(solver='liblinear', random_state=2)
+training_model.fit(X_train, y_train)
+print("Logistic Regression")
+print("---------------- Training Data ----------------")
+print(classification_report(y_train, training_model.predict(X_train)), '\n')
+print("---------------- Testing Data ----------------")
+print(classification_report(y_test, training_model.predict(X_test)), '\n')
 ```
-
-
-### Model 1 (Logistic Regression)
-For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
 ### Model 2 (Gaussian NB)
 The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
+
+```
+#We used the same scaled data from the previous step
+NB = GaussianNB()
+NB.fit(X_train, y_train)
+print("Gaussian NB")
+print("---------------- Training Data ----------------")
+print(classification_report(y_train, NB.predict(X_train)))
+print("---------------- Testing Data ----------------")
+print(classification_report(y_test, NB.predict(X_test)))
+```
 
 ## Discussion
 ### Thought Process
