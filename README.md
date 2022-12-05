@@ -86,4 +86,14 @@ Some shortcomings of our analysis include the fitting of the graphs and the erro
 
 ## Conclusion
 One approach we could've tried is to see which 2 aspects are one of the defining reasons that lead to diabetes. Looking at some of the graphs we plotted, we believed that glucose and blood pressure might be one of the main factors. We can also test to see if the two we chose is one of the defining reasons by removing it and seeing if that will make a more negative correlation in our data. Another area we could've improved is to adjust the training and testing ratios to see if it affected the results positively or negatively. Our accuracy for the probability of diabetes is already at 73%, which is fairly reasonable to warn people about their health. With more data, our accuracy will most likely increase and give people a better prediction that will help them get the help they need.
+
+## Results
+During our preprocessing stage, we found zero missing values and found that our data was most likely not normally distributed using the shapiro-wilk test. Thus we chose the MinMax Scaling method to scale our data before training.
+
+Our Logistic Regression Model and Gaussian NB Model performed very similarly, with both having an average accuracy of 73% on the testing data. On the other hand, the Logistic Regression Model was slightly more accurate on the training data with an accuracy of 79% compared to the Gaussian NB Model’s 76% accuracy. However, if we look at the fitting graphs for the two models we can see that they performed very differently as the size of the data set increased.
+
+[label](blob:vscode-webview%3A//00bt466hofsvr5qke1f40243ud7lcaplspqcao3jtedkm06ac65h/da90435f-850d-4325-9210-5fa3a93b8d72)
+
+[label](blob:vscode-webview%3A//00bt466hofsvr5qke1f40243ud7lcaplspqcao3jtedkm06ac65h/01f1b6c8-a83f-4cca-8abe-0745d2bff216)
+
 [link to Jupyter Notebook](./diabetes.ipynb).
