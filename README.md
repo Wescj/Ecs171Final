@@ -116,9 +116,10 @@ weighted avg       0.79      0.79      0.78       614
     accuracy                           0.73       154
    macro avg       0.74      0.69      0.69       154
 weighted avg       0.74      0.73      0.72       154
- 
+```
 
-```Gaussian NB 
+```
+Gaussian NB 
 ---------------- Training Data ----------------
               precision    recall  f1-score   support
 
