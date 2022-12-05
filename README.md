@@ -60,5 +60,7 @@ Afterwards, we decided to use Logistic Regression and Gaussian Naive Bayes Class
 ### Shortcomings
 Some shortcomings of our analysis include the fitting of the graphs and the errors from the prediction. Looking at our graph, we can see that the logistic regression graph goes down in error as the dataset increases. This tells us that our model does better when more data is being fed to it. However if we look at the Gaussian Naive Bayes model, we see that our test error and and train error seems to be slighting increasing. Though for our current dataset, we can see that both models about about a 70% average accuracy and precision, this may not be the case with more data. Changing the ratio of the test and train set might also affect the accuracy of our model, which is something that we believe could be worked on for better results. 
 
+### Conclusions
+One approach we could've tried is to see which 2 aspects are one of the defining reasons that lead to diabetes. Looking at some of the graphs we plotted, we believed that glucose and blood pressure might be one of the main factors. We can also test to see if the two we chose is actually one of the defining reasons by removing it and seeing if that will make a more negative correlation in our data. Additionally, our models would've been more different if we had more data to work with. Another area we could've tried is to adjust the training and testing ratios to see if it affected the results positively or negatively. 
 
 [link to Jupyter Notebook](./diabetes.ipynb).
