@@ -65,6 +65,7 @@ For model 1 we trained our model with a ratio of 80:20 using Logistic Regression
 train, test = train_test_split(scaledData, test_size=0.2, random_state=21)
 X_train, y_train = train.drop(['Outcome'], axis = 1), train['Outcome']
 X_test, y_test = test.drop(['Outcome'], axis = 1), test['Outcome']
+
 #Logistic Regression Model
 training_model = LogisticRegression(solver='liblinear', random_state=2)
 training_model.fit(X_train, y_train)
