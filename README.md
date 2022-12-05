@@ -3,7 +3,6 @@
 https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=download
 
 ## Collaboration
-We all worked as a team to complete the assignment. Although we didn't really have a team leader, we discussed possible ideas for our project and organized a timeline for the milestones and meetups. We managed our project by dividing some parts and talking about how we could analyze our dataset. All of us took part in writing parts of the code and in the write-up.
 
 Yingyu Gu: All-rounder
 * Participated in coding portion
@@ -24,6 +23,8 @@ Andrew Song: All-rounder
 * Participated in coding portion
 * Participated in final write-up
 * Discussed with members about when to meet up
+
+We all worked as a team to complete the assignment. Although we didn't really have a team leader, we discussed possible ideas for our project and organized a timeline for the milestones and meetups. We managed our project by dividing some parts and talking about how we could analyze our dataset. All of us took part in writing parts of the code and in the write-up.
 
 ## Dataset Attributes Information:
 * Pregnancies: The number of pregnancies  (int64)
