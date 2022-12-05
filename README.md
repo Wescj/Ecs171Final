@@ -25,7 +25,7 @@ Andrew Song: All-rounder
 * Participated in final write-up
 * Discussed with members about when to meet up
 
-### Dataset Attributes Information:
+## Dataset Attributes Information:
 * Pregnancies: The number of pregnancies  (int64)
 * Glucose: Glucose level in the blood (int64)
 * BloodPressure: To express the Blood pressure measurement (int64)
