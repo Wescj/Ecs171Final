@@ -63,7 +63,7 @@ For model 1 we trained our model with a ratio of 80:20 using Logistic Regression
 The second model was created using the Gaussian Naïve Bayes. We also trained our model with a ratio of 80:20 and predicted the "Outcome" (probability of having diabetes)
 
 ## Preprocessing & First Model Building and Evaluation Milestone
-* Finish Major preprocessing
+* Major preprocessing
     * scaling/transforming data (We used MinMaxScaler because our data is not normally distributed)
     * imputing data (We did not find any imputed data)
     * encoding data (Since our dataset values are all numberical, we do not need to encode)
