@@ -117,8 +117,8 @@ weighted avg       0.79      0.79      0.78       614
    macro avg       0.74      0.69      0.69       154
 weighted avg       0.74      0.73      0.72       154
  
-```
-Gaussian NB 
+
+```Gaussian NB 
 ---------------- Training Data ----------------
               precision    recall  f1-score   support
 
@@ -137,9 +137,8 @@ weighted avg       0.75      0.76      0.75       614
 
     accuracy                           0.73       154
    macro avg       0.72      0.70      0.71       154
-weighted avg       0.73      0.73      0.73       154
+weighted avg       0.73      0.73      0.73       154```
 
-```
 
 
 [link to Jupyter Notebook](./diabetes.ipynb).
