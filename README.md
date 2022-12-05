@@ -31,7 +31,7 @@ Before talking about the methods, we first ran the Shapiro-Wilk test on the data
 Heatmap:
 ![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049107942009491537/image.png)
 ### Preprocessing
-To preprocess our data, we scaled our data with the MinMaxScaler because our data was normalized. 
+For our data preprocessing we chose the Min Max Scaler as we found from our shapiro-wilk tests that our data is most likely not normally distributed. We also checked for any missing or NULL values to avoid any issues. We chose not to encode our data as we have no fields that needed encoding as every single field was a numeric value. Thus there was no real reason to encode our data. To increase the scope of our data set we also added a polynomial transformation for every field except for the “Outcome” field.
 
 ### Model 1
 For model 1 we trained our model with a ratio of 80:20 using Logistic Regression and predicted the "Outcome" (probability of having diabetes)
