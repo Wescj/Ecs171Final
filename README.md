@@ -92,8 +92,8 @@ During our preprocessing stage, we found zero missing values and found that our 
 
 Our Logistic Regression Model and Gaussian NB Model performed very similarly, with both having an average accuracy of 73% on the testing data. On the other hand, the Logistic Regression Model was slightly more accurate on the training data with an accuracy of 79% compared to the Gaussian NB Model’s 76% accuracy. However, if we look at the fitting graphs for the two models we can see that they performed very differently as the size of the data set increased.
 
-[label](blob:vscode-webview%3A//00bt466hofsvr5qke1f40243ud7lcaplspqcao3jtedkm06ac65h/da90435f-850d-4325-9210-5fa3a93b8d72)
+![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049142649094934608/image.png)
 
-[label](blob:vscode-webview%3A//00bt466hofsvr5qke1f40243ud7lcaplspqcao3jtedkm06ac65h/01f1b6c8-a83f-4cca-8abe-0745d2bff216)
+![Alt text](https://cdn.discordapp.com/attachments/272048987295580171/1049142621806805032/image.png)
 
 [link to Jupyter Notebook](./diabetes.ipynb).
